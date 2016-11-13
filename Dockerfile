@@ -12,10 +12,5 @@ RUN npm install -g homebridge-homeassistant
 # Start                                          #
 ##################################################
 
-USER root
-RUN mkdir -p /var/run/dbus
-
-ADD image/run.sh /root/run.sh
-
 EXPOSE 5353 51826
 CMD ["/root/run.sh"]
