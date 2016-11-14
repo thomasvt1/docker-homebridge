@@ -1,0 +1,13 @@
+version: '2'
+
+services:
+  homebridge:
+    build:
+      context: .
+      dockerfile: ./Dockerfile
+    image: kireevco/homebridge
+    container_name: homebridge    
+    privileged: true   
+
+    volumes:
+      - ./config:/root/.homebridge
