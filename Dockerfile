@@ -14,5 +14,6 @@ homebridge-foscam
 # Start                                          #
 ##################################################
 
+VOLUME /root/.homebridge
 EXPOSE 5353 51826
 CMD ["/root/run.sh"]
