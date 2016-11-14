@@ -8,7 +8,7 @@ MAINTAINER Dmitry Kireev <dmitry@kireev.co>
 
 RUN npm install -g \
 homebridge-homeassistant \
-homebridge-foscam
+homebridge-foscam --unsafe-perm
 
 ##################################################
 # Start                                          #
