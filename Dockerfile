@@ -6,7 +6,9 @@ MAINTAINER Dmitry Kireev <dmitry@kireev.co>
 # Install homebridge extra plugins               #
 ##################################################
 
-RUN npm install -g homebridge-homeassistant
+RUN npm install -g \
+homebridge-homeassistant \
+homebridge-foscam
 
 ##################################################
 # Start                                          #
