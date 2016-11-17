@@ -48,7 +48,7 @@ RUN npm install -g homebridge \
     homebridge-ifttt \
     homebridge-nest \
     homebridge-homeassistant \
-    homebridge-foscam \
+    homebridge-foscamcamera \
 #    homebridge-wink \
     --unsafe-perm
 
