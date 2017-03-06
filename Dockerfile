@@ -19,7 +19,8 @@ RUN apt-get update && \
     build-essential \
     g++ \
     libavahi-compat-libdnssd-dev \
-    libkrb5-dev
+    libkrb5-dev && \
+    apt-get clean
 
 ##################################################
 # Install homebridge                             #
