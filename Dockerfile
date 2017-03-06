@@ -14,12 +14,7 @@ ENV TERM xterm
 
 RUN apt-get update && \
     apt-get install -y \
-    apt-utils \
-    apt-transport-https \
     locales \
-    curl \
-    wget \
-    git \
     python \
     build-essential \
     make \
