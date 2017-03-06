@@ -1,5 +1,5 @@
 FROM node:7
-MAINTAINER Dmitry Kireev <dmitry@kireev.co>
+MAINTAINER Thomas <thomasvt@me.com>
 
 ##################################################
 # Set environment variables                      #
@@ -17,7 +17,6 @@ RUN apt-get update && \
     locales \
     python \
     build-essential \
-    make \
     g++ \
     libavahi-compat-libdnssd-dev \
     libkrb5-dev
