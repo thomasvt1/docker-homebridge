@@ -7,7 +7,6 @@ MAINTAINER Thomas <thomasvt@me.com>
 
 RUN apk add --update \
     libffi-dev openssl-dev \
-    linux-headers \
     avahi-dev \
     python \
     make \
