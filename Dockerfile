@@ -1,4 +1,4 @@
-FROM mhart/alpine-node
+FROM node:7-alpine
 MAINTAINER Thomas <thomasvt@me.com>
 
 ##################################################
@@ -17,7 +17,8 @@ RUN apk add --update \
     g++ \
     build-base \
     libffi-dev openssl-dev \
-    avahi-compat-libdns_sd
+    avahi-compat-libdns_sd \
+    python
 
 
 
