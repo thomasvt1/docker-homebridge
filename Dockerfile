@@ -14,6 +14,7 @@ ENV TERM xterm
 
 RUN apk add --update \
     libffi-dev openssl-dev \
+    avahi-compat-libdns_sd \
     avahi-dev \
     python \
     bash \
