@@ -16,7 +16,9 @@ RUN apk add --update \
     libffi-dev openssl-dev \
     avahi-compat-libdns_sd \
     avahi-dev \
+    openrc \
     python \
+    dbus \
     bash \
     make \
     g++
