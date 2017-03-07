@@ -9,6 +9,7 @@ RUN apk add --update \
     libffi-dev openssl-dev \
     avahi-dev \
     python \
+    bash \
     make \
     g++
 
