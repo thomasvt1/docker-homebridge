@@ -6,10 +6,11 @@ MAINTAINER Thomas <thomasvt@me.com>
 ##################################################
 
 RUN apk add --update \
-    linux-headers \
     libffi-dev openssl-dev \
+    linux-headers \
     avahi-dev \
-    python
+    python \
+    make
 
 
 
