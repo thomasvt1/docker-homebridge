@@ -1,4 +1,4 @@
-FROM node:7
+FROM node:7-alpine
 MAINTAINER Thomas <thomasvt@me.com>
 
 ##################################################
@@ -12,15 +12,14 @@ ENV TERM xterm
 # Install tools                                  #
 ##################################################
 
-RUN apt-get update && \
-    apt-get install -y \
-    locales \
-    python \
-    build-essential \
+RUN apk add --update \
+    linux-headers \
     g++ \
-    libavahi-compat-libdnssd-dev \
-    libkrb5-dev && \
-    apt-get clean
+    build-base \
+    libffi-dev openssl-dev \
+    avahi-compat-libdns_sd
+
+
 
 ##################################################
 # Install homebridge                             #
