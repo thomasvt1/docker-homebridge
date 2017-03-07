@@ -2,6 +2,13 @@ FROM node:7-alpine
 MAINTAINER Thomas <thomasvt@me.com>
 
 ##################################################
+# Set environment variables                      #
+##################################################
+
+ENV DEBIAN_FRONTEND noninteractive
+ENV TERM xterm
+
+##################################################
 # Install tools                                  #
 ##################################################
 
