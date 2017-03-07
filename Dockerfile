@@ -18,6 +18,7 @@ RUN apk add --update \
     build-base \
     libffi-dev openssl-dev \
     avahi-compat-libdns_sd \
+    avahi-dev \
     python
 
 
