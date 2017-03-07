@@ -7,7 +7,6 @@ MAINTAINER Thomas <thomasvt@me.com>
 
 RUN apk add --update \
     linux-headers \
-    g++ \
     build-base \
     libffi-dev openssl-dev \
     avahi-dev \
