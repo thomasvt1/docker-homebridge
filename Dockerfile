@@ -2,13 +2,6 @@ FROM node:7-alpine
 MAINTAINER Thomas <thomasvt@me.com>
 
 ##################################################
-# Set environment variables                      #
-##################################################
-
-ENV DEBIAN_FRONTEND noninteractive
-ENV TERM xterm
-
-##################################################
 # Install tools                                  #
 ##################################################
 
@@ -17,7 +10,6 @@ RUN apk add --update \
     g++ \
     build-base \
     libffi-dev openssl-dev \
-    avahi-compat-libdns_sd \
     avahi-dev \
     python
 
