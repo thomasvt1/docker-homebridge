@@ -10,7 +10,8 @@ RUN apk add --update \
     linux-headers \
     avahi-dev \
     python \
-    make
+    make \
+    g++
 
 
 
