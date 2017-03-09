@@ -12,6 +12,9 @@ else
 	echo "$file not found. You can create this file to install additional plugins not already included in the docker image."
 fi
 
+echo "Waiting 30 seconds to make sure Home Assistant is started and ready to accept connection"
+sleep 30
+
 dbus-daemon --system
 avahi-daemon -D
 
